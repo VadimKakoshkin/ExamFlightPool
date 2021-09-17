@@ -1,0 +1,142 @@
+/*НАСТРОЙКИ ДЛЯ ВСЕХ СТРАНИЦ*/
+/*Форматирование сайта*/
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1440px;
+}
+
+/*Шапка сайта*/
+.header__block {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+
+    padding: 10px 20px;
+}
+
+.header__logo {
+    max-width: 240px;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #38297a;
+
+    border-radius: 10px;
+}
+
+.header__nav a {
+    padding: 5px 10px;
+
+    color: white;
+}
+
+/*Подвал сайта*/
+.footer {
+    background-color: #38297a4d;
+    
+}
+
+.footer__block {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    padding: 10px 20px;
+}
+
+.footer__tel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer__tel-image {
+    width: 75px;
+    height: 75px;
+    overflow: hidden;
+}
+
+.footer__tel-image img {
+    width: 812px;
+    height: 496px;
+    margin: -24px 0 0 -20px;
+}
+
+.footer__nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__nav h5 {
+    color: white;
+    font-size: 18px;
+}
+
+.footer__nav a {
+    text-align: left;
+    padding: 5px 0;
+}
+
+
+
+/*ГЛАВНАЯ СТРАНИЦА*/
+/*Секция о доверии компании*/
+.trust__block {
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px 20px;
+}
+
+.trust__cards-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    margin-top: 20px;
+}
+
+.trust__card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    max-width: 600px;
+    height: 540px;
+    padding: 20px;
+    margin: 10px;
+
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.trust__card-image {
+    max-width: 560px;
+}
+
+.trust__card-info {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 10px;
+}
